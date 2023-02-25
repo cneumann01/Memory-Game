@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="titleBar">
+      <h1>Memory Game!</h1>
+      <form>
+        <label for="range">How many game tiles would you like?: 16 </label>
+        <input placeholder="16" value="16" type="range" min="2" max="36" step="2" />
+      </form>
+      <button id="startBtn">Start Game</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div id="game"></div>
+    <script src="script.js"></script>
+  </body>
+</html>

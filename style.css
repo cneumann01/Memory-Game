@@ -1,0 +1,40 @@
+body {
+  background-color: floralwhite;
+}
+
+#game {
+  margin: auto;
+}
+
+#game div {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+  margin: 8px 10px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+#game img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%
+}
+
+h1, #titleBar {
+  text-align: center;
+  justify-content: center;
+  margin: 0;
+  padding: 20px;}
+
+#titleBar label {
+  font-size: 20px;
+}
+
+#titleBar button {
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 8px;
+  border-color: aliceblue;
+}
